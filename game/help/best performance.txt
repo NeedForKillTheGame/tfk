@@ -1,0 +1,3 @@
+autoexec cfg:
+
+r_bg_draw 0

@@ -1,0 +1,19 @@
+// %k - killer name, %d - name died
+[kill]
+%d, next time move...
+Wow, what a shot... I rule!
+Thanks for the weapon, %d.
+How the fuck do you like it %d?
+Cool! Just one more head, and I can go bowling.
+[dead]
+%k is an illegal NFK camper!
+I vote %k as the camper of the day.
+Hey everyone, %k is a camping weenie.
+Okay %k, i have your punk-ass figured!
+Okay, now i start playing for real.
+[game]
+NapBot has you! =)
+I like play in Need For Kill.
+I love 3d[Power]. =)
+My e-mail: naphy@butovo.net
+My home page: www.naphy.narod.ru
