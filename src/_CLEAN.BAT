@@ -1,0 +1,8 @@
+del *.~*
+del *.dcu
+del *.dsk
+del *.obj
+del *.dsm
+del *.rsm
+del *.cfg
+del *.rar

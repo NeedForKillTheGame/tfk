@@ -1,0 +1,256 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//RU">
+<html>
+
+<head>
+<title>Time For Kill - Console help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+</head>
+
+<body bgcolor="#EEEEEE" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#FF3322" vlink="#FF3322" alink="#FF3322">
+
+<table align="center" valign="top" width="90%" border="0" cellspacing="0" cellpadding="0">
+ <tr bgcolor="#B0B0B0"><th align="left" width="250">Команда</th><th align="left">Описание</th></tr>
+
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Отладочные команды для Default-TFK бота</b></td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>bot_add</b></font></td><td>Добавить</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>bot_addmax</b></font></td><td>Добавить ботов до sv_maxplayers</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>bot_default</b></font></td><td>Использовать ли default бота</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>bot_remove</b></font></td><td>Удалить бота</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Команды для внешнего бота (Napbot, XBot, …)</b></td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>bot_load &lt;название dll&gt;</b></font></td><td>Загрузить dll бота из папки "&lt;TFK&gt;\TA\bots\"</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>bot_version</b></font></td><td>Запросить версию бота</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Команды записи/проигрывания демок</b></td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>autorecord</b></font></td><td>Запись демки, название файла которой определяется автоматически</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>record &lt;имя файла&gt;</b></font></td><td>Записать демку</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>stoprecord</b></font></td><td>Остановить запись</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>demo &lt;имя файла&gt;</b></font></td><td>Проиграть демку</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>demo_goto &lt;время в секундах&gt;</b></font></td><td>Промотать демку до какого-то момента. Возможна перемотка с начала демки</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>demo_showinfo &lt;0-1&gt;</b></font></td><td>Показывать информацию о демке сверху экрана</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>demo_skip &lt;время в секундах&gt;</b></font></td><td>Промотать демку вперёд</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Команды настройки управления</b></td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>bind &lt;клавиша&gt; &lt;команда&gt;</b></font></td><td>Назначить управление/команду на клавишу</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>getbinding &lt;команда&gt;</b></font></td><td>Вывести в консоль названия клавиш, забинденых на эту команду (left, right, jump, lookup, lookdown…)</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>getkeybinding &lt;клавиша&gt;</b></font></td><td>Узнать, что забиндено на эту клавишу</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>unbind &lt;клавиша&gt;</b></font></td><td>Убрать бинд с клавиши</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>unbindkeys</b></font></td><td>Убрать ВСЕ бинды</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>mouse_sensitivity &lt;1-30&gt;</b></font></td><td>Чувствительность мыши, влияет на обе оси</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>keyb_sensitivity &lt;1-30&gt;</b></font></td><td>Чувствительность ввода с клавиатуры. В основном вляет на поворот орижия</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>mouselook &lt;0-2&gt;</b></font></td><td>Режим mouselook - обзор мышью. 0 - наведение курсора; 1 - наведение+поворот резким движением по оси X, 2 - свободный прицел</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>mouselook_offset &lt;0-8&gt;</b></font></td><td>Работает с mouselook 2. Минимальное расстояние до прицела относительно игрока</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>mouselook_pitch &lt;0-8&gt;</b></font></td><td>Чувствительность по оси X</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>mouselook_strafe &lt;0-1&gt;</b></font></td><td>Использовать ли обычные  клавиши left и right как strafe, если mouselook 1 или 2.</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>mouselook_yaw &lt;0-8&gt;</b></font></td><td>Чувствительность по оси Y</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Команды работы с консолью</b></td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>con_alpha &lt;0-255&gt;</b></font></td><td>Прозрачность консоли</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>con_clear</b></font></td><td>Очистить консоль</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>con_cmdlist</b></font></td><td>Вывести список консольных команд</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>con_drawbg &lt;0-1&gt;</b></font></td><td>Прорисовка фона консоли</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>con_height &lt;0-640&gt;</b></font></td><td>Высота консоли (по умолчанию 240)</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>con_msgcount &lt;0-16&gt;</b></font></td><td>Количество сообщений сверху при убранной консоли</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>con_msgtime &lt;0-500&gt;</b></font></td><td>Время жизни сообщения сверху при закрытой консоли</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>con_simple &lt;0-1&gt;</b></font></td><td>Оптимизировать вывод текста в консоли</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>con_speed &lt;10-480&gt;</b></font></td><td>Скорость раскрытия/закрытия консоли</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>con_writecfg &lt;имя файла&gt;</b></font></td><td>Записать значения всех переменные в cfg-файл</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>say &lt;сообщение&gt;</b></font></td><td>Послать сообщение остальным игрокам</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>onsay</b></font></td><td>Показать/скрыть поле ввода текста для чата. Желательно биндить</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>echo &lt;0-1 текст&gt;</b></font></td><td>0/1 - выкл/вкл вывод сообщений в консоль. Если в параметрах указан только текст, то этот текст будет выведен в консоль.</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Команды сетевой игры</b></td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_apl_time</b></font></td><td>Время жизни APL-пакета</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_apl_trys</b></font></td><td>Количество попыток доставки APL пакета</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_connect &lt;IP:PORT&gt;</b></font></td><td>Соединиться с IP. Если не указан Port то по умолчанию он считается равным 25666</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_delta &lt;0-10&gt;</b></font></td><td>Отладочный параметр, ответственен  за трафик при простое игрока, изменять не рекомендуется</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_disjoin</b></font></td><td>Стать спектатором (player1 и player2 отключаются от игры), работает только если вы – клиент.</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_info &lt;IP:PORT&gt;</b></font></td><td>Узнать, существует ли сервер по данному адресу</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_invite &lt;IP:PORT&gt;</b></font></td><td>Послать IP-invite удалённому компьютеру. Приглашение появится в меню multiplayer. Если вы находитесь за шлюзом – это единственный способ играть по Интернету в качестве сервера.</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_ip</b></font></td><td>Узнать свой IP.</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_join</b></font></td><td>Присоединиться к игре (если вы были спектатором).</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_p2join</b></font></td><td>Присоединить к игре второго игрока.</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_phys_sending &lt;0-1&gt;</b></font></td><td>Посылать ли настройки физики клиенту (серверная команда)</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_randomsocket &lt;0-1&gt;</b></font></td><td>Отладочная команда, по умолчанию режим отключён. При создании клиента используется случайный порт</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_restart</b></font></td><td>Перезапуск сетевого движка</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_search</b></font></td><td>Поиск серверов по локальной сети</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_send &lt;IP:PORT&gt; &lt;сообщение&gt;</b></font></td><td>Отправить удалённому компьютеру сообщение</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_spectator &lt;0-1&gt;</b></font></td><td>Если 1, то при подключении вы становитесь спектатором (и присоединяетесь к игре только после net_join)</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>net_sync &lt;1-8&gt;</b></font></td><td>Уровень синхронизации, по умолчанию 3 – низкая синхронизация (Интернет, 30кб/мин). Для серверов с маленьким пингом (LAN и ADSL) ставить 1 – высокая синхронизация, большое потребление трафика где-то 90кб/минуту.</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>arena_address &lt;адрес&gt;</b></font></td><td>Изменение сетевого адреса игрового сервера "АРЕНА"</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>sv_maxplayers &lt;2-16&gt;</b></font></td><td>Максимальное количество игроков на сервере</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>sv_name &lt;имя&gt;</b></font></td><td>Имя игрового сервера</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>sv_pass &lt;пароль&gt;</b></font></td><td>Пароль на вход</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>sv_port &lt;1024-65500&gt;</b></font></td><td>Сетевой порт на котором будет размещён сервер. Изменять не рекомендуется</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Отладочные команды</b></td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_clearbit &lt;0-1&gt;</b></font></td><td>Чистить ли экран перед отрисовкой. При включённом фоне рекомендуется отключать</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_draw_fps &lt;0-1&gt;</b></font></td><td>Отображение FPS</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_draw_ups &lt;0-1&gt;</b></font></td><td>Отображение UPS</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_input &lt;0-1&gt;</b></font></td><td>Отображение</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_net &lt;0-1&gt;</b></font></td><td>Отображение отладочной информации о пришедших пакетах</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_net_traf &lt;0-1&gt;</b></font></td><td>Отображение входящего/исходящего трафика</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_particles &lt;0-1&gt;</b></font></td><td>Отображение отладочных параметров частиц</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_realobjs &lt;0-1&gt;</b></font></td><td>Отображение отладочных параметров спец. игровых объектов (гранат, трупов)</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_sound &lt;0-1&gt;</b></font></td><td>Показать состояние звукового движка</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_timing &lt;0-1&gt;</b></font></td><td>Отображать время затраченное на выполнение основных функция игры</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_usedx_keyboard &lt;0-1&gt;</b></font></td><td>Использовать ли DirectInput для ввода с клавиатуры</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_usedx_mouse &lt;0-1&gt;</b></font></td><td>Использовать ли DirectInput для получения состояния мыши</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>d_waypoints &lt;0-1&gt;</b></font></td><td>Отобразить вейпоинты, их связи, и найденный путь ботом</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Управление камерой</b></td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cam_fixed &lt;0-1&gt;</b></font></td><td>Фиксированная камера (работает на картах, полностью умещающихся на экране)</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cam_nextplayer</b></font></td><td>Следить за следующим игроком</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cam_prevplayer</b></font></td><td>Следить за предыдущим игроком</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cam_smooth &lt;0-50&gt;</b></font></td><td>Плавность движений камеры. 0-камера постоянно следует за игроком. &gt; 0 – камера движется с определённой степенью плавности (чем больше параметр, тем больше)</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cam_speed</b></font></td><td>Скорость камеры при ручном управлении (free mode)</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Карта</b></td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>map &lt;имя карты&gt;</b></font></td><td>Загрузить карту</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>map_list</b></font></td><td>отображает список доступных карт</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>restart</b></font></td><td>Рестарт карты</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>gametype &lt;название режима&gt;</b></font></td><td>Режим игры</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>bg &lt;имя файла&gt;</b></font></td><td>Загрузить фон из файла, расположенного в "TA\Textures\BackGround"</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_bg_draw &lt;0-1&gt;</b></font></td><td>Отрисовка фона карты</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_bg_motion &lt;0-100&gt;</b></font></td><td>Относительный сдвиг фона по отношению к карте при движении</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_bg_speed_x &lt;-1000-1000&gt;</b></font></td><td>Скорость равномерного движения фона по X</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_bg_speed_y &lt;-1000-1000&gt;</b></font></td><td>Скорость равномерного движения фона по Y</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>def_brick &lt;0-1024&gt;</b></font></td><td>Заменяет текстуры всех бриков на текстуру брика с выбранным номером. При выборе не существующей текстуры используется отптимизированный вариант текстуры</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>fraglimit &lt;0-999&gt;</b></font></td><td>Лимит фрагов до победы. 0 - не ограничен</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>timelimit &lt;0-999&gt;</b></font></td><td>Лимит времени. 0 - отключить</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>friendly_fire &lt;0-1&gt;</b></font></td><td>Разрешить огонь по своим</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>forcerespawn &lt;0-999&gt;</b></font></td><td>максимальное время "отдыха" после смерти</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_backbr_alpha &lt;0-255&gt;</b></font></td><td>Степень прозрачности "задних" бриков</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_frontbr_alpha &lt;0-255&gt;</b></font></td><td>Степень прозрачности "передних" бриков</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>warmup &lt;0-1&gt;</b></font></td><td>Тренировка перед матчем</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>warmup_time &lt;5-999&gt;</b></font></td><td>Время отведённое на тренировку</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>warmup_armor &lt;0-200&gt;</b></font></td><td>Количество брони, которое даётся по умолчанию в режиме тренировки</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>ready</b></font></td><td>Закончить тренировку</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Игрок</b></td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>model &lt;модель&gt;+&lt;скин&gt;</b></font></td><td>Изменяет внешний вид модели игрока</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>p2model &lt;модель&gt;+&lt;скин&gt;</b></font></td><td>Изменяет внешний вид модели второго игрока</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>model_list</b></font></td><td>Отображает список доступных моделей</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>name &lt;имя&gt;</b></font></td><td>Смена имени игрока</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>p2name &lt;имя&gt;</b></font></td><td>Смена имени второго игрока</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>p1nextwpn_skipempty</b></font></td><td>Пропускать разряженное оружие первым игроком при его смене</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>p2nextwpn_skipempty</b></font></td><td>Пропускать разряженное оружие вторым игроком при его смене</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>p2disable</b></font></td><td>Отключить второго игрока</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>disjoin</b></font></td><td>Отключить обоих локальных игроков от игры</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>join &lt;red, blue&gt;</b></font></td><td>Смена цвета команды в командных режимах игры</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>p2join &lt;red, blue&gt;</b></font></td><td>Смена цвета команды в командных режимах игры для второго игрока</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cg_airsteps &lt;0-1&gt;</b></font></td><td>Выключить/включить анимацию игрока в воздухе</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cg_steps &lt;0-1&gt;</b></font></td><td>Звуки шагов</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cg_crosshair &lt;0-1&gt;</b></font></td><td>Включает отрисовку прицела</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cg_crosshair_color_b &lt;0-255&gt;</b></font></td><td>Синяя компонента цвета прицела</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cg_crosshair_color_g &lt;0-255&gt;</b></font></td><td>Зелёная компонента цвета прицела</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cg_crosshair_color_r &lt;0-255&gt;</b></font></td><td>Красная компонента цвета прицела</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cg_crosshair_offset &lt;50-200&gt;</b></font></td><td>максимальное расстояние до прицела относительно игрока</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cg_crosshair_size &lt;1-16&gt;</b></font></td><td>Размер прицела</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cg_crosshair_type &lt;0-9&gt;</b></font></td><td>Внешний вид прицела (кол-во зависит от размера текстуры с прицелами)</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>shownick &lt;0-1&gt;</b></font></td><td>Показывать ники над игроками</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>stats</b></font></td><td>Вывод статистики</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Меню и HUD</b></td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>menu_fx &lt;0-1&gt;</b></font></td><td>Отображение заднего фона в меню</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>hud_color_armor &lt;0-1&gt;</b></font></td><td>Цветное отображение брони (работает только для упрощённого hud)</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>hud_color_health &lt;0-1&gt;</b></font></td><td>Цветное отображение брони (работает только для упрощённого hud)</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>hud_simple &lt;0-1&gt;</b></font></td><td>Изменить внешний вид hud'а</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>hud_status_alpha &lt;0-255&gt;</b></font></td><td>Регулировка степени прозрачности hod'а</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Вывод изображения</b></td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>display &lt;W H&gt; &lt;BPP&gt; &lt;Freq&gt;</b></font></td><td>Изменяет разрешение, глубину цвета и частоту обновления монитора</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>vsync &lt;0-1&gt;</b></font></td><td>Вертикальная синхронизация вывода кадров с частотой монитора</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>gofullscreen</b></font></td><td>Переход в полноэкранный режим</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>gowindow</b></font></td><td>Переход в оконный режим</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>dis_gamma &lt;0-100&gt;</b></font></td><td>Яркость дисплея</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>dis_scale &lt;0-1&gt;</b></font></td><td>Сохранять реальные размеры области вывода при смене разрешения</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>dis_view &lt;0-1&gt;</b></font></td><td>Разрешить изменение обзора при смене разрешения экрана</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>splitscreen &lt;0-2&gt;</b></font></td><td>Разделёный экран в режиме двух игроков. 0 - отключить; 1 - вертикальный; 2 - горизонтальный</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>minimize</b></font></td><td>Минимизировать окно игры</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cl_avidemo &lt;0-2&gt;</b></font></td><td>0 - отключить запись скринов; 1 - сохраняет кадры игры с частотой 25 кадров в секунду; 2 - 50 кадров/сек. Не рекомендуется использовать во время ответственной игры. Желательно использовать только при просмотре демок. Кадры пишутся в папку "&lt;TFK&gt;\TA\screenshots\". Их формат изменяется командой screenshot_format.</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>screenshot_format &lt;1-3&gt;</b></font></td><td>Формат файла-скриншота. 1 - bmp; 2 - tga; 3 - jpg</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>screenshot_number &lt;0-9999&gt;</b></font></td><td>Номер с которого начинается нумерация кадров</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>screenshot_quality &lt;1-100&gt;</b></font></td><td>Качество картинки на скриншоте (тОлько для jpg)</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Спецэффекты</b></td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cg_marks &lt;0-1&gt;</b></font></td><td>Оставлять следы от выстрелов на стенах</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>cg_marks_time &lt;0-1000&gt;</b></font></td><td>Время до исчезновения следа</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_blood &lt;0-1&gt;</b></font></td><td>Отображать кровь при повреждениях</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_blood_count &lt;0-20&gt;</b></font></td><td>Количество "брызг" крови</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_blood_time &lt;0-255&gt;</b></font></td><td>Максимальное время существования кровушки</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_bullet_trace &lt;0-50&gt;</b></font></td><td>Время в течении которого отображаются следы от пуль (machinegun, shotgun)</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_dead &lt;0-1&gt;</b></font></td><td>Отображать трупы</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_dead_time &lt;0-300&gt;</b></font></td><td>Максимальное время существования трупа</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_exp_interpolate &lt;0-1&gt;</b></font></td><td>Включить интерполяцию при отрисовке взрывов</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_exp_rocket &lt;0-1&gt;</b></font></td><td>Анимация взрыва ракеты</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_exp_grenade &lt;0-1&gt;</b></font></td><td>Анимация взрыва гранаты</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_exp_bfg &lt;0-1&gt;</b></font></td><td>Анимация взрыва бфг</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_exp_plasma &lt;0-1&gt;</b></font></td><td>Анимация взрыва плазмы</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_gibs &lt;0-1&gt;</b></font></td><td>Включить "расчленение"</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_gibs_blood &lt;0-1&gt;</b></font></td><td>Включить кровь от каждой части тела</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_gibs_blood_static &lt;0-1&gt;</b></font></td><td>Кровь летит без начальной скорости</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_gibs_time &lt;0-3000&gt;</b></font></td><td>Максимальное время существования останков</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_item_amplitude &lt;0-5&gt;</b></font></td><td>Максимальное отклонение лежачих предметов</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_item_rotate &lt;0-1&gt;</b></font></td><td>Включить анимацию предметов</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_laser_patch &lt;0-1&gt;</b></font></td><td>Блик света в точке касания лазера</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_laser_spark &lt;0-1&gt;</b></font></td><td>Искры от лазера</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_lightmap &lt;0-1&gt;</b></font></td><td>Включить карты освещённости</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_lightmap_demo &lt;0-1&gt;</b></font></td><td>Разрешить запись карт освещённости в демки</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_lightmap_generate</b></font></td><td>Расчитать карту освещённости для текущей карты</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_lightmap_quality &lt;1-16&gt;</b></font></td><td>Качество лафтмэпов (после смены требуется расчитать)</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_lightmap_smooth &lt;0-8&gt;</b></font></td><td>Размытие теней</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_lights &lt;0-1&gt;</b></font></td><td>Включить блики света от лампоек на карте</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_maxparticles &lt;0-1000000&gt;</b></font></td><td>Максимальное количество частиц на карте</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_rail_color_b &lt;0-255&gt;</b></font></td><td>Синяя компонента цвета луча RailGun'а</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_rail_color_g &lt;0-255&gt;</b></font></td><td>Зелёная компонента цвета луча RailGun'а</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_rail_color_r &lt;0-255&gt;</b></font></td><td>Красная компонента цвета луча RailGun'а</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_rail_progressivealpha &lt;0-1&gt;</b></font></td><td>Плавное исчезновение луча</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_rail_smooth &lt;0-1&gt;</b></font></td><td>Антиалиасинг луча</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_rail_trailtime &lt;0-100000&gt;</b></font></td><td>Время затухания луча</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_rail_width &lt;1-16&gt;</b></font></td><td>Ширина луча</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_rain &lt;0-1&gt;</b></font></td><td>Разрешить дождь на карте</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_snow &lt;0-1&gt;</b></font></td><td>Разрешить снег на карте</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_snow_time &lt;0-3000&gt;</b></font></td><td>Время таяния снега после приземления</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_shell &lt;0-1&gt;</b></font></td><td>Гильзы при выстреле (machinegun, shotgun)</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_shell_speed &lt;0-1&gt;</b></font></td><td>Начальной скоростью гильзы является скорость игрока</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_shell_time &lt;0-3000&gt;</b></font></td><td>Время существования гильз</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_smoke &lt;0-1&gt;</b></font></td><td>Включить дым</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_part_time &lt;0-3000&gt;</b></font></td><td>Время сушествования кусков разбитых бриков</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_weapon_fire &lt;0-1&gt;</b></font></td><td>Огонь из ствола при выстреле</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_weapon_light &lt;0-1&gt;</b></font></td><td>Блик света при выстреле</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_buttons_mode &lt;0-1&gt;</b></font></td><td>Настройка прорисовки кнопок-в каком порядке следуют кадры в текстуре</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>r_fade_speed &lt;1-1000&gt;</b></font></td><td>Скорость затемнения/осветления</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>fade</b></font></td><td>Затемнение/Осветление. Полезная команда для single player'а</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Звук</b></td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>s_exp_rocket &lt;0-1&gt;</b></font></td><td>Звук взрыва ракеты</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>s_exp_grenade &lt;0-1&gt;</b></font></td><td>Звук взрыва гранаты</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>s_exp_bfg &lt;0-1&gt;</b></font></td><td>Звук взрыва бфг</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>s_exp_plasma &lt;0-1&gt;</b></font></td><td>Звук взрыва плазмы</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>music_play &lt;имя файла&gt;</b></font></td><td>Начать проигрывание музыки. Путь указывается относительно "&lt;TFK&gt;\TA\music\". Расширение файла указывать обязательно!</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>music_replay</b></font></td><td>Повторить проигрывание с начала</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>music_stop</b></font></td><td>остановить проигрывание</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>snd_off &lt;0-1&gt;</b></font></td><td>Выключить звук</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>snd_volume &lt;0-100&gt;</b></font></td><td>Изменить громкость</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>sound_freq &lt;0-100000&gt;</b></font></td><td>Частота звука. 0 - не изменять; 1 - в зависимости от скорости игры; &gt; 1 - задаётся вручную</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>sound_swap &lt;0-1&gt;</b></font></td><td>Поменять местами левый и правный звуковой канал</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>winamp_next</b></font></td><td>Следующая трек в winamp</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>winamp_prev</b></font></td><td>Предыдущий трек</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>winamp_play</b></font></td><td>Начать проигрывание</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>winamp_stop</b></font></td><td>Остановить</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>winamp_pause</b></font></td><td>Пауза</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Игра</b></td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>spgame &lt;имя сингла&gt;</b></font></td><td>Загрузить SinglePlayer. Путь к папке указывается относительно "&lt;TFK&gt;\TA\"</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>spgame_free</b></font></td><td>Выгрузка сингла</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>phys &lt;параметр&gt;</b></font></td><td>Изменение какого-либо параметра физики игры. Читать phys_howto.txt</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>exec &lt;имя файла&gt;</b></font></td><td>Выполнить консольные команды содержащиеся в файле</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>game &lt;имя мода&gt;</b></font></td><td>Смена мода</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>game_list</b></font></td><td>Список доступных модов к игре</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>quit</b></font></td><td>Выход из игры</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Режимы игры по команде gametype. Работает только на картах приспособленных к данному режиму игры. При сетевой игре работает только на сервере. После изменения следует перезагрузить карту.</b></td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>gametype FFA</b></font></td><td>Free For All - Каждый сам за себя</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>gametype TRIX</b></font></td><td>Трикс-Арена, остановка игры по триггеру arena_end</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>gametype RAIL</b></font></td><td>Rail-arena, и так все понятно</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>gametype TDM</b></font></td><td>Team DeathMatch - Командный режим</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>gametype CTF</b></font></td><td>Capture The Flag - пока что то же самое что TDM</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>gametype DOM</b></font></td><td>Domination - пока что то же самое что TDM</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>gametype CTC</b></font></td><td>Catch The Chicken - цыпа-цыпа! не нарисовали ещё...</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>gametype SP</b></font></td><td>Single Player - у вас лишь одна жизнь!</td></tr>
+ <tr><td colspan="2" bgcolor="#C0C0C0" align="center"><b> Save/Load</b></td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>sp_save &lt;filename&gt;</b></font></td><td>Сохранение игры в saves\filename.tsg</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>sp_load &lt;filename&gt;</b></font></td><td>Загрузка игры из saves\filename.tsg</td></tr>
+ <tr bgcolor="#DADADA"><td align="left">&nbsp; <font size="2" face="Courier New"><b>bind F6 sp_save quick</b></font></td><td>QuickSave :) по F6</td></tr>
+ <tr bgcolor="#E0E0E0"><td align="left">&nbsp; <font size="2" face="Courier New"><b>bind F7 sp_load quick</b></font></td><td>QuickLoad &gt;) по F7</td></tr>
+
+</table>
+</body>
+
+</html>
